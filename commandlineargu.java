@@ -1,9 +1,12 @@
-public class commandlineargu {
-    public static void main(String args[]) {
-      int x=40;
-      int y=40;
-      int z=x+y;
+//WAP IN JAVA for Command Line Arguments//
 
-      System.out.println("Sum of x+y = " + z);
-    }
+public class commandlineargu {
+  public static void main(String args[]) {
+      int a=args.length;
+      System.out.println("The arguments length is:"+a);
+      for(int i=0;i<a;i++)
+      {
+           System.out.println("The "+i+" arguments is:"+args[i]);
+      }
+  }
 }
