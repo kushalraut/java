@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
 
-public class addition {
+public class Addition {
 
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
         
         int no1, no2, sum;
+        Scanner in1 = new Scanner(System.in);
         try{
-        final Scanner in1 = new Scanner(System.in);
+        
         System.out.println("Enter First Number: ");
         no1 = in1.nextInt();
         
@@ -18,7 +19,7 @@ public class addition {
         sum = no1 + no2;
         System.out.println("Sum of these numbers: "+sum);
     }
-catch(final Exception e){
+catch(Exception e){
     System.out.println("Error is:"+e);
 }
     }    
