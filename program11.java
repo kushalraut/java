@@ -1,6 +1,8 @@
-// 3 accept three numbers from user.compare them and declare the largest number (using if-self statement)
+//Program No. 11: Accept 3 numbers from user. Compare them and declare 
+//the largest number (Using if-else statement)
+
 import java.util.Scanner;
-public class prac4 {
+public class program11 {
     public static void main(String[] args) {
         int a ,b ,c ;
         Scanner reader = new Scanner(System.in);
@@ -10,17 +12,17 @@ public class prac4 {
         c = reader.nextInt();
         if(a > b && a > c)
         {
-            System.out.println("a is greatest "+a);
+            System.out.println("First No. entered is greatest "+a);
 
         }
         else if(b > a && b > c)
         {
-            System.out.println("b is greatest " + b);
+            System.out.println("Second No. entered is greatest " + b);
             
         }
         else if(c > a && c > b)
         {
-            System.out.println("c is greatest " + c);
+            System.out.println("Thrid No. entered is greatest " + c);
             
         }
 

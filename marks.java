@@ -1,3 +1,5 @@
+//Program No. 10: Accept marks from the user, if marks greater than 40, declare
+//the student as pass or fail
 import java.util.Scanner;
 
 public class marks
